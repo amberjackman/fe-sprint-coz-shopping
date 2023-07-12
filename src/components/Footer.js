@@ -6,7 +6,9 @@ const footer = () => {
   return (
     <div className="footer-container">
       <footer className="footer-content">
-        개인정보 처리방침 | 이용 약관 All right reserved @ codestates
+        <span>
+          개인정보 처리방침 | 이용 약관 All right reserved @ codestates
+        </span>
       </footer>
     </div>
   );

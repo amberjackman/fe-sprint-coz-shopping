@@ -9,7 +9,6 @@ function App() {
         <header />
         <Routes>
           <Route path="/" element={<Main />} />
-          {/* Add more routes for other components/pages */}
         </Routes>
       </div>
     </Router>

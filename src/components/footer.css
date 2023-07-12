@@ -8,11 +8,10 @@
   justify-content: center;
 }
 
-.footer-content span {
+.footer-content div {
   font-family: "Inter", "sans-serif";
   background-color: #fff;
   color: #888888;
   font-size: 12px;
   text-align: center;
-  margin-top: 20px;
 }

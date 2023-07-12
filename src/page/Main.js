@@ -6,7 +6,6 @@ const Main = () => {
   return (
     <main>
       <Header></Header>
-      {/* Add your product components or other content here */}
       <Footer></Footer>
     </main>
   );

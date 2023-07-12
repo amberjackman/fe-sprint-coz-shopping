@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="header-container" />
+        <header />
         <Routes>
           <Route path="/" element={<Main />} />
           {/* Add more routes for other components/pages */}

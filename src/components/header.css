@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  height: 90px;
+  box-shadow: 0 4px 4px rgba(0, 0.25, 0, 0.25);
+}
+
+.logo-container {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.title-container {
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.title-container span {
+  margin-left: 0;
+  font-size: 32px;
+  line-height: 28.17px;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+}
+
+.hamgugger-container {
+  justify-content: flex-end;
+  padding-left: 69%;
+  margin-right: 20px;
+}

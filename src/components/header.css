@@ -9,7 +9,7 @@
 
 .logo-container {
   display: flex;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-right: 0;
 }
 
@@ -23,14 +23,12 @@
 
 .title-container span {
   margin-left: 0;
+  margin-right: 770px;
   font-size: 32px;
   line-height: 28.17px;
   font-family: "Inter", sans-serif;
-  margin-left: 10px;
 }
 
 .hamgugger-container {
-  justify-content: flex-end;
-  padding-left: 69%;
-  margin-right: 20px;
+  justify-content: right;
 }

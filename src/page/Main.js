@@ -1,9 +1,45 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Productlist from "../components/Productlist";
+import DebugComponent from "../util/DebugComponent";
+export default function Main() {
+  // API Call (네트워크 요청) -> useEffect
+  const [products, setProducts] = useState([]);
 
-const Main = () => {
-  return <main></main>;
-};
+  useEffect(() => {
+    // const customFetch = async () => {
+    //   const res = await fetch(`http://cozshopping.codestates-seb.link/api/v1/products?count=10`);
+    //   const json = await res.json();
+    //   setProducts(json)
+    // }
+    // customFetch()
 
-export default Main;
+    // 브라우저의 API의 하나로 Fetch API가 있습니다.
+    // 브라우저 내장 기능
+    fetch(`http://cozshopping.codestates-seb.link/api/v1/products?count=10`)
+      .then((res) => res.json())
+      .then((json) => setProducts(json));
+
+    // 비동기
+    // 정신없이 순서 뒤죽박죽으로 오는 요청을
+    // 순서대로 잘 처리하기 위해서
+    // async/await
+    // await 뒤의 비동기 요청을 동기적으로 처리
+  }, []);
+
+  return (
+    <section>
+      {products.map((product) => {
+        return (
+          <Productlist
+            key={product.id}
+            title={product.title}
+            image_url={product.image_url}
+          ></Productlist>
+        );
+      })}
+
+      <DebugComponent data={products}></DebugComponent>
+    </section>
+  );
+}

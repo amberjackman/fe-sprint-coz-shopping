@@ -1,0 +1,21 @@
+.product-container {
+  display: flex;
+  max-width: 1280px;
+  height: 640px;
+
+  border: 2px solid royalblue;
+}
+
+.product-card {
+  display: flex;
+  width: 264px;
+  height: 264px;
+  align-items: center;
+  /* justify-content: center; */
+  border: 2px solid red;
+}
+
+.product-card img {
+  width: 264px;
+  height: 264px;
+}

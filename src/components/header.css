@@ -13,12 +13,20 @@
   margin-right: 0;
 }
 
+.logo-container :hover {
+  cursor: pointer;
+}
+
 .title-container {
   display: flex;
   text-align: left;
   align-items: flex-start;
   justify-content: flex-start;
   margin-left: 20px;
+}
+
+.title-container :hover {
+  cursor: pointer;
 }
 
 .title-container span {

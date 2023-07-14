@@ -13,6 +13,7 @@ function App() {
           <header />
           <Routes>
             <Route path="/" element={<Main />} />
+            {/* <Route path */}
           </Routes>
         </div>
       </Router>

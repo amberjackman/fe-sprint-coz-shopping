@@ -30,9 +30,7 @@ export default function Main() {
   // }, []);
 
   return (
-    <section>
-      <Productlist></Productlist>
-      {/* <DebugComponent data={products}></DebugComponent> */}
-    </section>
+    <ProductCard></ProductCard>
+    // {/* <DebugComponent data={products}></DebugComponent> */}
   );
 }

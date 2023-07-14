@@ -20,7 +20,7 @@ export default function ProductCard() {
   }, []);
 
   return (
-    <div>
+    <div className="product-container">
       {products.map((product) => (
         <div key={product.id} className="product-card">
           <h2>{product.title}</h2>

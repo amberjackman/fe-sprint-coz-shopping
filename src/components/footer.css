@@ -1,0 +1,17 @@
+.footer-container {
+  display: flex;
+  max-width: 1280px;
+  height: 90px;
+  border: 2px solid yellowgreen;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-content div {
+  font-family: "Inter", "sans-serif";
+  background-color: #fff;
+  color: #888888;
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1280px;
+  height: 640px;
+  border: 2px solid royalblue;
+  overflow: auto;
+}
+
+.product-card {
+  width: 264px;
+  height: 264px;
+  display: flex;
+
+  align-items: center;
+  justify-content: column;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px) brightness(80%);
+}
+
+.product-card img {
+  width: 264px;
+  height: 210px;
+  object-fit: cover;
+}

@@ -5,7 +5,7 @@ const apicall = async () => {
     const jsonData = await response.json();
     return jsonData;
   } catch (error) {
-    console.log("Error fetching data:", error);
+    console.log("err", error);
     return [];
   }
 };
